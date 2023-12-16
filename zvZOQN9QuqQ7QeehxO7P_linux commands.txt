@@ -1,0 +1,436 @@
+
+[root@ip-172-31-39-130 ec2-user]# history
+    1  clear
+    2  clear
+    3  cat > file1
+    4  clear
+    5  cat >> file1
+    6  rm -rf *
+    7  ls
+    8  cat > file1
+    9  cat >> file1
+   10  clear
+   11  cat file1
+   12  clear
+   13  ls
+   14  cat file1
+   15  clear
+   16  touch file2
+   17  clear
+   18  ls
+   19  nano file3
+   20  vi file4
+   21  clear
+   22  ls
+   23  cat file1
+   24  cat file2
+   25  cat file3
+   26  cat file4
+   27  clear
+   28  ls
+   29  nano file1
+   30  nano file2
+   31  nano file3
+   32  nano file4
+   33  vi file1
+   34  vi file2
+   35  vi file3
+   36  vim file4
+   37  clear
+   38  ls
+   39  nano file1
+   40  nano file2
+   41  nano file3
+   42  nano file4
+   43  vi file1
+   44  vi file2
+   45  vi file3
+   46  vim file4
+   47  clear
+   48  ls
+   49  cat file2
+   50  cat > file2
+   51  cat file2
+   52  cat >> file2
+   53  cat file2
+   54  clear
+   55  mkdir dir1
+   56  ls
+   57  touch file10 file11 file12
+   58  ls
+   59  mkdir dir10 dir11 dir12
+   60  ls
+   61  ls
+   62  ls -l
+   63  ls
+   64  touch .file20
+   65  mkdir .dir20
+   66  ls
+   67  ls
+   68  ls -a
+   69  clear
+   70  ls
+   71  ls -l
+   72  ls -a
+   73  ls -la
+   74  clear
+   75  ls -al
+   76  ls -lta
+   77  ls
+   78  mkdir -p dira/dirb/dirc
+   79  ls
+   80  clear
+   81  ls
+   82  cd dira
+   83  ls
+   84  cd dirb
+   85  ls
+   86  cd dirc
+   87  ls
+   88  cd ..
+   89  ls
+   90  cd ..
+   91  cd ..
+   92  ls
+   93  history
+   94  ls
+   95  cd dira
+   96  ls
+   97  cd dirb
+   98  ls
+   99  cd dirc
+  100  ls
+  101  cd ..
+  102  cd ..
+  103  ls
+  104  cd ..
+  105  ls
+  106  cd dira/dirb/dirc
+  107  ls
+  108  cd ../../..
+  109  clear
+  110  pwd
+  111  ls
+  112  ls
+  113  cd dira/dirb/dirc
+  114  ls
+  115  pwd
+  116  cd ../../..
+  117  pwd
+  118  cd ..
+  119  ls
+  120  cd ..
+  121  ls
+  122  cd home
+  123  ,ls
+  124  ls
+  125  cd ec2-user
+  126  ls
+  127  cd ../..
+  128  ls
+  129  cd home/ec2-user
+  130  history
+  131  history
+  132  clear
+  133  ls
+  134  cd dira
+  135  cd dirb
+  136  cd dirc
+  137  ls
+  138  cd ..
+  139  cd ..
+  140  cd ..
+  141  cd dira/dirb/dirc
+  142  pwd
+  143  cd ../../..
+  144  cd ..
+  145  cd ..
+  146  ls
+  147  cd home
+  148  ls
+  149  cd ec2-user
+  150  cd ../..
+  151  cd home/ec2-user
+  152  clear
+  153  ls
+  154  tree
+  155  yum install tree -y
+  156  tree
+  157  ls
+  158  yum remove tree
+  159  tree
+  160  yum install tree -y
+  161  tree
+  162  clear
+  163  mkdir -p dirv/dirw/dirx/diry/dirz
+  164  ls
+  165  cd dirv
+  166  ls
+  167  cd dirw
+  168  ls
+  169  cd ../..
+  170  ls
+  171  tree
+  172  ls
+  173  tree
+  174  cd dir1
+  175  ls
+  176  cd ..
+  177  ls
+  178  tree
+  179  cp file1 dir1
+  180  tree
+  181  ls
+  182  cd dir1
+  183  ls
+  184  cd ..
+  185  tree
+  186  mv file10 dir1
+  187  ls
+  188  cd dir1
+  189  ls
+  190  cd ..
+  191  tree
+  192  clear
+  193  ls
+  194  tree
+  195  mv file2 file2000
+  196  clear
+  197  ls
+  198  tree
+  199  mv dir11 dir11111
+  200  ls
+  201  tree
+  202  mv dir11111 dir11
+  203  ls
+  204  tree
+  205  rm -rf file2000
+  206  ls
+  207  tree
+  208  rm -rf dir11
+  209  ls
+  210  tree
+  211  ls
+  212  touch testfile1
+  213  ls
+  214  tree
+  215  cd dira
+  216  cd dirb
+  217  cd dirc
+  218  ls
+  219  touch testfile2
+  220  ls
+  221  cd ../../..
+  222  ls
+  223  tree
+  224  ls
+  225  cd dira/dirb/dirc
+  226  ls
+  227  cd ../../..
+  228  history
+  229  ls
+  230  clear
+  231  ls
+  232  tree
+  233  tree
+  234  ls
+  235  cd dira/dirb/dirc
+  236  ls
+  237  cd ../../..
+  238  tree
+  239  touch dira/dirb/dirc/testfile3
+  240  tree
+  241  touch dirv/dirw/dirx/diry/dirz/testfileA
+  242  tree
+  243  ls
+  244  tree
+  245  cat > dira/dirb/dirc/testfile2
+  246  tree
+  247  ls
+  248  tree
+  249  cat dira/dirb/dirc/testfile2
+  250  cd dira
+  251  cd dirb
+  252  cd dirc
+  253  ls
+  254  cat testfile2
+  255  cd ../../..
+  256  ls
+  257  tree
+  258  clear
+  259  ls
+  260  ls dira/dirb/dirc
+  261  cat dira/dirb/dirc
+  262  cat dira/dirb/dirc/testfile2
+  263  nano dira/dirb/dirc/testfile2
+  264  vi dira/dirb/dirc/testfile2
+  265  tree
+  266  cd dirv/dirw/dirx/diry
+  267  cd ../../../..
+  268  tree
+  269  mkdir dirv/dirw/dirx/diry/dirM
+  270  tree
+  271  cp file1 dirv/dirw/dirx/diry
+  272  tree
+  273  ls dirv/dirw/dirx/diry
+  274  tree
+  275  cp dira/dirb/dirc/testfile3 dirv/dirw/dirx/diry
+  276  tree
+  277  mv dira/dirb/dirc/testfile2 dirv/dirw
+  278  tree
+  279  mv dira/dirb/dirc/testfile3 dira/dirb/dirc/testfile3000
+  280  tree
+  281  rm -rf file11
+  282  ls
+  283  tree
+  284  rm -rf dir10
+  285  ls
+  286  tree
+  287  rm -rf dira/dirb/dirc/testfile3000
+  288  ls
+  289  tree
+  290  rm -rf file1 file12 file3 file4 testfile1
+  291  ls
+  292  tree
+  293  touch dira/dirb/dirc/saifile1
+  294  ls
+  295  tree
+  296  cd ..
+  297  pwd
+  298  cd ..
+  299  pwd
+  300  ls
+  301  cd ..
+  302  cd ..
+  303  ls
+  304  cd home/ec2-user
+  305  tree
+  306  touch /home/ec2-user/dira/dirb/dirc/saifile2
+  307  tree
+  308  cp dir12 dira/dirb
+  309  tree
+  310  cp -r dir12 dira/dirb
+  311  tree
+  312  mv dir1 dirv/dirw/dirx
+  313  tree
+  314  rm -rf dirv/dirw/dirx/dir1
+  315  tree
+  316  rm -rf dirv/dirw/dirx/diry/dirz
+  317  tree
+  318  mv dira/dirb/dirc dira/dirb/dircccc
+  319  tree
+  320  touch ../fileA
+  321  cd ..
+  322  ls
+  323  cd ec2-user
+  324  ls ../
+  325  touch /home/fileB
+  326  cd ..
+  327  ls
+  328  cd ec2-user
+  329  ls ../
+  330  ls /home
+  331  pwd
+  332  touch ../../harifile1
+  333  cd ../..
+  334  ls
+  335  cd home/ec2-user
+  336  ls ../../
+  337  ls /
+  338  touch /harifile2
+  339  ls /
+  340  ls ../../
+  341  cd ../..
+  342  ls
+  343  cd home/ec2-user
+  344  ls ../../etc
+  345  ls /etc
+  346  cat /etc/passwd
+  347  ls
+  348  tree
+  349  cat /etc/passwd
+  350  cat /etc/passwd
+  351  grep root /etc/passwd
+  352  cat /etc/passwd
+  353  less /etc/passwd
+  354  less /etc/passwd
+  355  less /etc/passwd
+  356  more /etc/passwd
+  357  more /etc/passwd
+  358  history
+  359  cat /etc/passwd
+  360  less /etc/passwd
+  361  more /etc/passwd
+  362  cat /etc/passwd
+  363  head /etc/passwd
+  364  head -3 /etc/passwd
+  365  head -7 /etc/passwd
+  366  head -2 /etc/passwd
+  367  head -15 /etc/passwd
+  368  tail /etc/passwd
+  369  tail -6 /etc/passwd
+  370  tail -3 /etc/passwd
+  371  ls
+  372  cat > myfile
+  373  ls
+  374  cat myfile
+  375  sort myfile
+  376  cat myfile
+  377  sort myfile
+  378  hostname
+  379  hostname
+  380  ifconfig
+  381  hostname -i
+  382  whoiam
+  383  cat /etc/os-release
+  384  cat /etc/os-rele*
+  385  cat /etc/*release
+  386  cat /etc/*rele*
+  387  yum install httpd -y
+  388  which httpd
+  389  which tree
+  390  which docker
+  391  which mysql
+  392  yum update httpd -y
+  393  yum remove httpd
+  394  which httpd
+  395  yum install httpd -y
+  396  which httpd
+  397  yum list installed
+  398  yum list installed | grep httpd
+  399  which httpd
+  400  which httpd
+  401  service httpd status
+  402  service httpd start
+  403  service httpd status
+  404  service httpd stop
+  405  service httpd status
+  406  service httpd status
+  407  service httpd start
+  408  service httpd status
+  409  service httpd status
+  410  service httpd start
+  411  service httpd status
+  412  chkconfig httpd on
+  413  chkconfig httpd off
+  414  cat /etc/os-release
+  415  echo hi
+  416  echo hari
+  417  echo hello
+  418  ls
+  419  echo "GoodNight" > newfile
+  420  ls
+  421  cat newfile
+  422  echo "Hello" >> newfile
+  423  cat newfile
+  424  echo "How are you" > newfile
+  425  cat newfile
+  426  whoami
+  427  exit
+  428  whoami
+  429  exit
+  430  history
+  431  yum update -y
+  432  dnf upgrade --releasever=2023.2.20231113
+  433  yum update -y
+  434  history
